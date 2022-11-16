@@ -1,0 +1,401 @@
+.container {
+  max-width: 1750px;
+  margin: 0px auto;
+  padding: 0px 15px;
+  justify-content: center;
+}
+.head {
+  display: flex;
+  justify-content: space-between;
+}
+.logo_left1 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin-top: 15px;
+}
+.icon1 {
+  margin: -10px 15px 0px 20px;
+}
+.time {
+  margin: 8px 0px 0px 20px;
+  font-family: Average, Montserrat;
+  font-size: 18px;
+}
+.tel {
+  margin: 0px -84px 0px 0px;
+  font-family: Montserrat;
+  font-size: 15px;
+}
+.adres {
+  margin: 23px 20px 0 0;
+  font-family: Montserrat;
+  font-size: 18px;
+}
+.burger1 {
+  width: 32px;
+  height: 19px;
+  margin-top: 21px;
+}
+.burger {
+  display: flex;
+}
+/* _____________________дальше блок центрального лого__________________________________  */
+.header_logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: -5px;
+  margin-top: 10px;
+}
+.logo_center {
+  width: 539px;
+  height: 129px;
+}
+.p1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 20px 0 34px 0px;
+  font-family: Montserrat;
+  font-size: 20px;
+}
+.first_image_container {
+  max-width: 1700px;
+  display: flex;
+  justify-content: center;
+}
+.first_image {
+  width: 100%;
+  margin: 0px auto;
+}
+/* перехлест лезвие */
+.blinder_container {
+  max-width: 1250px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  margin: auto;
+  margin-top: 20px;
+}
+.blind {
+  margin: 0px 30px 0px 30px;
+}
+.service_line_blinder {
+  border-top: 1px solid rgba(229, 229, 229, 100%);
+  width: 100%;
+  margin: -10px 0 0 0 0;
+}
+.new_block {
+  font-family: Montserrat;
+  font-size: 34px;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  margin: 10px 30px 30px 30px;
+}
+.cards_container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.card {
+  margin: 50px 60px 5px 60px;
+}
+.frame {
+  width: 360px;
+  height: 480px;
+  border: solid rgba(229, 229, 229, 100%);
+  display: flex;
+  flex-direction: column;
+  margin: 30px 50px 30px 50px;
+}
+.Name {
+  font-family: Montserrat;
+  font-size: 25px;
+  font-weight: 500;
+  align-self: center;
+}
+.button_frame {
+  width: 112px;
+  height: 41px;
+  border: solid 3px rgb(158, 158, 158);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  font-size: 15px;
+  font-family: Montserrat;
+  font-weight: 500;
+  align-self: center;
+}
+.button_frame:hover {
+  background-color: rgb(187, 184, 184);
+  color: rgb(255, 255, 255);
+}
+/* наши услуги  */
+.Our_services {
+  display: flex;
+  flex-direction: column;
+  max-width: 1300px;
+  margin: auto;
+}
+.mens_haircut1,
+.mens_haircut3 {
+  display: flex;
+  flex-direction: row;
+  margin: 10px 0 35px 0;
+}
+.Colums1,
+.Colums3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.mens_haircut2 {
+  display: flex;
+  flex-direction: row;
+  margin: 10px 0 35px 0;
+}
+.Colums2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.servises {
+  font-family: Montserrat;
+  font-size: 25px;
+}
+.head_services1,
+.head_services3 {
+  font-family: Montserrat;
+  font-size: 22px;
+  font-size: semibold;
+  margin-left: 25px;
+  font-weight: 500;
+}
+
+.head_services2 {
+  font-family: Montserrat;
+  font-size: 22px;
+  font-size: semibold;
+  font-weight: 500;
+}
+.text_p1,
+.text_p3 {
+  font-family: Montserrat;
+  font-size: 15px;
+  margin-left: 25px;
+}
+.text_p2 {
+  font-family: Montserrat;
+  font-size: 15px;
+  margin-right: 25px;
+}
+
+.BEAR {
+  font-family: Average;
+  font-size: 16px;
+}
+/* Прайс лист */
+.price_list {
+  display: flex;
+  flex-direction: column;
+  max-width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+  border: solid rgba(229, 229, 229, 100%);
+  padding: 0 20px 30px 20px;
+}
+
+.price_list_head {
+  display: flex;
+  justify-content: center;
+  font-family: Montserrat;
+  font-size: 21px;
+  margin: auto;
+  font-weight: 500;
+}
+.service {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.service_line {
+  border-top: 1px solid rgba(229, 229, 229, 100%);
+  margin: -25px 0 -5px 0;
+}
+.service_number {
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 500;
+}
+.dervide_price {
+  font-family: Montserrat;
+  font-size: 25px;
+  font-weight: 500;
+}
+.explanation_n {
+  font-family: Montserrat;
+  font-size: 10px;
+  font-weight: 300;
+}
+
+.footer {
+  max-width: 100%;
+  height: 450px;
+  background: rgba(171, 171, 171, 100%);
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+.navigation_footer {
+  margin-left: 20px;
+}
+.center_footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 80px;
+}
+
+.button {
+  width: 290px;
+  height: 95px;
+  border: solid rgba(229, 229, 229, 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  font-size: 23px;
+  font-family: Montserrat;
+  font-weight: 500;
+}
+
+.button:hover {
+  background-color: white;
+  color: black;
+}
+.right {
+  display: flex;
+  flex-direction: column;
+  margin-right: 50px;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  align-content: center;
+}
+.right_1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 15px;
+  font-family: Montserrat;
+  margin: 15px 0 15px 0;
+}
+.right_head {
+  font-weight: 500;
+}
+.nav_1 {
+  margin-left: 20px;
+  font-size: 18px;
+  font-family: Montserrat;
+  line-height: 40px;
+  font-weight: 200;
+}
+.nav {
+  margin-left: 20px;
+  font-size: 19px;
+  font-family: Montserrat;
+  line-height: 40px;
+  font-weight: 500;
+}
+
+.clear {
+  width: 110px;
+  height: 50px;
+}
+.Copyright {
+  margin: 0px 0 -50px 0;
+}
+.Copyright_p {
+  font-size: 15px;
+  font-family: Montserrat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+
+/* для адаптивной верстки */
+@media screen and (max-width: 1900px) {
+  .container {
+    width: 1750px;
+  }
+}
+
+@media screen and (max-width: 1790px) {
+  .container {
+    width: 1500px;
+  }
+}
+
+@media screen and (max-width: 1550px) {
+  .container {
+    width: 1300px;
+  }
+}
+
+@media screen and (max-width: 1350px) {
+  .container {
+    width: 1100px;
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  .container {
+    width: 950px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .container {
+    width: 700px;
+  }
+  .mens_haircut1,
+  .mens_haircut3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px 0 35px 0;
+  }
+  .mens_haircut2 {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .Colums1,
+  .Colums2,
+  .Colums3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.frame:hover {
+  border: 3px solid rgb(158, 158, 158);
+}
